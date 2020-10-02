@@ -10,7 +10,7 @@ int main()
         mov al, 1100b
         mov bh, 1010b
         add al, bh
-        mov bh, 0
+        mov bh, 1
         mov cl, 10000b
         mov bl, 00001b
         shr cl, 5
