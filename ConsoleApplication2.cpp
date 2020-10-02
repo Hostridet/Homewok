@@ -23,7 +23,8 @@ int main()
         shl bl, 5
         xor al, bl
         xor al, cl
-        mov a, al
+        mov ah,al
+        mov a, ah
     }
     printf("%d", a);
         getchar();
