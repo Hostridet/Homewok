@@ -19,8 +19,8 @@ int main()
         xor al, bl
         mov cl, 01000b
         mov bl, 00010b
-        shr cl, 3
-        shl bl, 3
+        shr cl, 2
+        shl bl, 2
         xor al, bl
         xor al, cl
         mov al, ah
